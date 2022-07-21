@@ -1,0 +1,93 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  background: url('./assets/切片\ 4.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  .title {
+    width: 663px;
+    height: 100px;
+    position: absolute;
+    left: 600px;
+    top: 23px;
+    color: #fff;
+    font-size: 55px;
+    text-align: center;
+    line-height: 100px;
+  }
+  .recent-data {
+    width: 563.99px;
+    height: 360.41px;
+    position: absolute;
+    top: 146px;
+    left: 27px;
+  }
+  .pe-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 210px;
+    left: 805px;
+    text-align: center;
+    .number {
+      width: 240px;
+      height: 55px;
+      font-size: 50px;
+      line-height: 100%;
+      color: #fff;
+    }
+    .ren {
+      width: 40px;
+      height: 40px;
+      margin-top: 10px;
+      font-size: 40px;
+      line-height: 100%;
+      color: #fff;
+    }
+  }
+  .selectForm {
+    width: 577px;
+    height: 113px;
+    position: absolute;
+    top: 148px;
+    left: 1312px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .select-title {
+      color: #fff;
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 25px;
+    }
+    .semi-select {
+      border: 1px solid #fff;
+      color: #fff;
+    }
+    .semi-select-selection-placeholder {
+      color: #fff;
+    }
+    .semi-select-arrow {
+      color: #fff;
+    }
+  }
+  .pe-status {
+    width: 577px;
+    height: 214px;
+
+    position: absolute;
+    top: 293px;
+    left: 1312px;
+  }
+  .main-bottom {
+    width: 1860px;
+    height: 379px;
+    position: absolute;
+    top: 596px;
+    left: 27px;
+  }
+}
